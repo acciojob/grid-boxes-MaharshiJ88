@@ -1,16 +1,16 @@
 /*  your css code here. If applicable */
 #grid {
-	width: 500px;
-	height: 300px;
+	width: 900px;
+	height: 500px;
 	display: grid;
-	grid-template-column: repeat(4, 100px);
+	grid-template-column: 124px 124px 124px 124px 124px;
 	grid-template-row: repeat(5, 100px);
 	gap: 5px;
 }
 
 .item-1 {
 	background-color: green;
-	grid-column: 1/5;
+	grid-column: 1/span 4;
 	grid-row: 1/2;
 }
 
