@@ -1,7 +1,7 @@
 /*  your css code here. If applicable */
 #grid {
 	width: 100vw;
-	height: 500px;
+	height: 100vh;
 	display: grid;
 	grid-template-column: 124px 124px 124px 124px 124px;
 	grid-template-row: 124px 124px 124px 124px 124px;
@@ -17,7 +17,7 @@
 .item-2 {
 	background-color: green;
 	grid-column: 1/2;
-	grid-row: 2/6;
+	grid-row: span 4 / auto;
 }
 
 .item-3 {
